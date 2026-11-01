@@ -42,7 +42,7 @@ function ClassificadorContainer() {
     )
 
     try {
-      const response = await fetch('http://localhost:8080/api/iris/classify', {
+      const response = await fetch('http://localhost:8080/api/v1/iris/classify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
